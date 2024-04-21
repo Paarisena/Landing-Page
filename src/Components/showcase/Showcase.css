@@ -1,0 +1,30 @@
+.showcase h2 {
+  font-size: 3.6rem;
+}
+
+.lead {
+  font-size: 2.4rem;
+}
+
+.row {
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+.row:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 50rem;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
